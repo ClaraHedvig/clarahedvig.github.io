@@ -1,0 +1,88 @@
+body{
+  background-color: #99CCFF;
+  display: flex;
+  justify-content: center;
+  font-family: "Avenir Next";
+}
+
+#hela{
+  margin-top: 100px;
+  width: 600px;
+  height: 450px;
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+}
+
+.imgContainer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 340px;
+  height: 450px;
+}
+/* Resize images */
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#rightSide{
+  height: 450px;
+  width: 250px;
+  float: right;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+#loginForm{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.loginRows{
+  padding: 2px;}
+.loginRows input{
+  float: right; }
+.loginRows label{
+  float: left;}
+
+
+
+#signupForm{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.signinRows{
+  padding: 2px;}
+.signinRows input{
+  float: right;}
+.signinRows label{
+  float: left;}
+.signinRows select{
+  float: right;
+  width: 147px;
+  padding: 2px;}
+
+#header{
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 10px;
+}
+
+.button{
+  width: 50%;
+  align-self: center;
+  margin-top: 10px;
+  font-family: "Avenir Next";
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Kommentar -->
+
+<html>
+  <head> <!-- Denna head är för att koppla ihop filerna -->
+    <title>Claras hemsida</title>
+    <link rel="stylesheet" type="text/css" href="welcomeC.css"/> <!-- stylesheet: nu ska vi stylea till all vår html-kod utefter de reglerna vi har satt i vår href, alltså welcome.css -->
+    <script type="text/javascript" src="serverstubC.js">
+    </script>
+
+  </head>
+
+  <body>
+
+     <div id="hela">
+
+        <div class="imgContainer"> <!-- Div är som en container -->
+          <img src = "snoifjallen.jpeg"/>
+        </div>
+
+        <div id="rightSide">
+
+          <form id="loginForm">
+
+            <div class="loginRows">
+              <label for="username">Email</label>
+              <input type="email" email="email" id="email">
+            </div>
+
+            <div class="loginRows">
+              <label for="password">Password</label>
+              <input type="password" password="password" id="password">
+            </div>
+
+
+            <input class="button" type="submit" value="Log in" id = "login">
+
+
+          </form>
+
+          <form id="signupForm">
+            <label for="header" id="header">Get registered</label><br>
+
+            <div class="signinRows">
+              <label for="firstname">First name</label>
+              <input type="text" name="firstname" id="firstname"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="familyname">Family name</label>
+              <input type="text" name="familyname" id="familyname"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="gender">Gender</label>
+              <select name="gender" id="selectGender">
+                  <option value="default">Female</option>
+                  <option value="male">Male</option>
+                  <option value="nonbinary">Non-binary</option>
+                  <option value="afab">AFAB</option>
+                  <option value="amab">AMAB</option>
+                  <option value="trans">Trans</option>
+                  <option value="other">Other</option>
+                  <option value="trans">I do not know</option>
+                  <option value="secret">I do not want to say</option>
+              </select><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="city">City</label>
+              <input type="text" name="city" id="city"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="country">Country</label>
+              <input type="text" name="country" id="country"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="emailSignUp"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="password">Password</label>
+              <input type="password" name="passwordSignUp" id="passwordSignUp"><br>
+            </div>
+
+            <div class="signinRows">
+              <label for="repeatpassword">Repeat psw</label>
+              <input type="password" name="repeatpassword" id="repeatpassword"><br>
+            </div>
+
+            <input class="button" type="submit" value="Save" id = "submit">
+
+          </form>
+
+        </div> <!--rightSide-->
+
+      </div><!--hela-->
+
+  </body>
+</html>
