@@ -1,10 +1,9 @@
 /**
  * Serverstub.js
  *
- * Simple dummy server for TDDD97
+ * Simple dummy server
  *
- * If you're a student, you shouldn't need to look through this file,
- *  the description of how it works is in the lab instructions.
+ * 
  **/
 var serverstub = (function() {
   'use strict';
@@ -26,7 +25,7 @@ var serverstub = (function() {
       }
 
   }
-  
+
   var persistUsers = function(){
     localStorage.setItem("users", JSON.stringify(users));
   };
